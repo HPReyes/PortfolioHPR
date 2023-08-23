@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 
 
     <title>Hugo Pedraza Reyes || Desarrollador FullStack</title>
@@ -55,7 +55,7 @@
                 <i class="uil uil-moon change-theme" id="theme-button">
                 </i>
                 
-                <a href="./" class="uil uil-globe change-theme"> EN
+                <a href="../" class="uil uil-globe change-theme"> EN
                 </i></a>
 
             </div>
@@ -77,7 +77,7 @@
                         165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                         129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                         -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        <image class="home__blob-img" x='10' y='16' href="assets/img/hpr.png"/>
+                        <image class="home__blob-img" x='10' y='16' href="../assets/img/hpr.png"/>
                     </g>
                 </svg>
         <section class="home section grid" id="home">
@@ -119,7 +119,7 @@
                         <h3 class="home__subtitle">Desarrollador FullStack</h3>
                         <p class="home__description">
                         </p>
-                        <a download="" href="assets/pdf/Hugo-Pedraza-CV.pdf" class="button cv">
+                        <a download="" href="../assets/pdf/Hugo-Pedraza-CV.pdf" class="button cv" ID="CV">
                             Descarga CV<i class="uil uil-download-alt button__icon"></i>
                         </a>
 
@@ -137,7 +137,7 @@
             <span class="section__subtitle">Presentación</span>
 
             <div class="about__container container grid">
-                <img src="assets/img/sobremi.JPG" alt="aboutme" class="about__img">
+                <img src="../assets/img/sobremi.JPG" alt="aboutme" class="about__img">
                 <div class="about__data">
                     <p class="about__description">Soy un desarrollador web apasionado de la programación y de las nuevas tecnologías. Tengo 10 años de experiencia en Recursos Humanos pero también una fuerte vocación en el desarrollo de soluciones.</p>
                     <p class="about__description">Desde que era niño me han interesado la tecnología, leer, los animales y los videojuegos. Dato curioso: ¡Aprendí inglés jugando a The Legend of Zelda!/p>
@@ -189,22 +189,22 @@
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">HTML</h3><img src="./assets/img/html-5-logo-svgrepo-com.svg" alt="html5" class="skills__icon">
+                                    <h3 class="skills__name">HTML</h3><img src="../assets/img/html-5-logo-svgrepo-com.svg" alt="html5" class="skills__icon">
                                 </div>
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">CSS</h3><img src="./assets/img/css-3-svgrepo-com.svg" alt="css" class="skills__icon">
+                                    <h3 class="skills__name">CSS</h3><img src="../assets/img/css-3-svgrepo-com.svg" alt="css" class="skills__icon">
                                 </div>
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">JavaScript</h3><img src="./assets/img/js-svgrepo-com.svg" alt="JavaScript" class="skills__icon">
+                                    <h3 class="skills__name">JavaScript</h3><img src="../assets/img/js-svgrepo-com.svg" alt="JavaScript" class="skills__icon">
                                 </div>
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">PHP</h3><img src="./assets/img/php-svgrepo-com.svg" alt="php" class="skills__icon">
+                                    <h3 class="skills__name">PHP</h3><img src="../assets/img/php-svgrepo-com.svg" alt="php" class="skills__icon">
                                 </div>
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">SQL</h3><img src="./assets/img/sql-database-generic-svgrepo-com.svg" alt="SQL" class="skills__icon">
+                                    <h3 class="skills__name">SQL</h3><img src="../assets/img/sql-database-generic-svgrepo-com.svg" alt="SQL" class="skills__icon">
                                 </div>
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Linux</h3><img src="./assets/img/linux-svgrepo-com.svg" alt="Linux" class="skills__icon">
+                                    <h3 class="skills__name">Linux</h3><img src="../assets/img/linux-svgrepo-com.svg" alt="Linux" class="skills__icon">
                                 </div>
 
                             </div>
@@ -363,7 +363,7 @@
 
             <!-- PORTFOLIO 1 -->
             <div class="porftolio__content grid swiper-slide">
-                <img src="./assets/img/quiereme-bien.png" alt="quiereme-bien" class="portfolio__img">
+                <img src="../assets/img/quiereme-bien.png" alt="quiereme-bien" class="portfolio__img">
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">Quiéreme Bien | Web Oficial</h3>
                     <p class="portfolio__description">Web oficial de la miniserie documental contra el maltrato animal normalizado.
@@ -376,7 +376,7 @@
             </div>
             <!-- PORTFOLIO 2 -->
             <div class="porftolio__content grid swiper-slide">
-                <img src="./assets/img/wip.png" alt="workinprogress" class="portfolio__img">
+                <img src="../assets/img/wip.png" alt="workinprogress" class="portfolio__img">
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">Whack-a-Mole | Juego</h3>
                     <p class="portfolio__description">Proyecto personal del juego Whack-a-Mole.</p>
@@ -388,7 +388,7 @@
             </div>
             <!-- PORTFOLIO 3 -->
             <div class="porftolio__content grid swiper-slide">
-                <img src="./assets/img/wip.png" alt="workinprogress" class="portfolio__img">
+                <img src="../assets/img/wip.png" alt="workinprogress" class="portfolio__img">
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">Sogni Per Te | Tienda Online</h3>
                     <p class="portfolio__description">Tienda online para un pequeño negocio local sobre bisutería artesanal.</p>
@@ -445,7 +445,7 @@
 
     <?php 
 
-include 'form-es.php';
+    include '../form.php';
 
 ?>
     
@@ -516,9 +516,9 @@ include 'form-es.php';
     <i class="uil uil-arrow-up scrollup__icon"></i>
 </a> -->
 
-    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
     
 </body>
 </html>

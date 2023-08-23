@@ -21,7 +21,7 @@ if(isset($_POST['enviar'])){
 $nombre = $_POST['contact-name'];
 $correo = $_POST['contact-email'];
 $mensaje = $_POST['message'];
-$destinatario = "hpreyesdev@gmail.com";
+$destinatario = "contacto@hugopedraza.es";
 $asunto = "Contacto desde la web";
 
 $cuerpo = '
@@ -55,6 +55,8 @@ $mailer ->AltBody=strip_tags($cuerpo);
 $respuesta = $mailer->send();
 
 
+if ($_SERVER['REQUEST_URI'] !== '/es/') {
+    
 
 if(!$respuesta){?>
 
@@ -67,14 +69,36 @@ if(!$respuesta){?>
     
     else {
         ?>
+
         <div><p class="success">Message sent successfully 😊.<br>Thanks for contacting me!</p></div>
-        <script>
-        confeti();
-        hideForm();
-        </script>
+       
 
         <?php
+       } 
+   
+
+  } 
+
+    else {
+
+        if(!$respuesta){?>
+
+            <div><p class="error">No se pudo enviar el formulario 😞. Recarga la página e inténtalo en unos minutos.</p></div>
         
+        
+            <?php
+            
+            }
+            
+            else {
+                ?>
+        
+            <div><p class="success">Mensaje enviado correctamente 😊. <br>¡Muchas gracias por contactar!</p></div>
+               
+        
+                <?php
+               } 
+      
     }
 }
 }  

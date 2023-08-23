@@ -55,7 +55,7 @@
                 <i class="uil uil-moon change-theme" id="theme-button">
                 </i>
                 
-                <a href="./es.php" class="uil uil-globe change-theme"> ES
+                <a href="./es/" class="uil uil-globe change-theme"> ES
                 </i></a>
 
             </div>
@@ -119,7 +119,7 @@
                         <h3 class="home__subtitle">FullStack Developer</h3>
                         <p class="home__description">
                         </p>
-                        <a download="" href="assets/pdf/Hugo-Pedraza-CV.pdf" class="button cv">
+                        <a download="" href="assets/pdf/Hugo-Pedraza-CV.pdf" class="button cv" id="CV">
                             Download CV<i class="uil uil-download-alt button__icon"></i>
                         </a>
 
@@ -445,7 +445,7 @@
 
     <?php 
 
-include 'form.php';
+include './form.php';
 
 ?>
     
@@ -471,13 +471,12 @@ include 'form.php';
                 </div>
             </div>
             <div>
-                <input type="submit" class="button button--flex" name="enviar" id="enviar" value="Send message">
-                </input>
+                <button type="submit" class="button button--flex" name="enviar" id="enviar" value="Send message">Send message
+                </button>
             </div>
 
         </form>
     </div>
-
 
 
 
@@ -516,7 +515,9 @@ include 'form.php';
     <i class="uil uil-arrow-up scrollup__icon"></i>
 </a> -->
 
-    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
     

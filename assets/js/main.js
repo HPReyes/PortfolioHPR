@@ -1,3 +1,7 @@
+
+
+
+
 const navMenu = document.getElementById("nav-menu"),
       navToggle = document.getElementById("nav-toggle"),
       navClose = document.getElementById("nav-close");
@@ -143,26 +147,20 @@ let swiper = new Swiper('.portfolio__container', {
 
 
 
-  function confeti() {
-
-    const jsConfetti = new JSConfetti();
-
-    setTimeout(function() {
-      jsConfetti.addConfetti({
-        // emojis: ['🐶', '💙', '⚡', '🐾'],
-     });
-    }, 300);
 
 
-  };
+  document.getElementById("CV").addEventListener("click", () => {
 
-  const formulario = document.getElementById("formulario");
+    confetti();
+    console.log("hola");
+      });
+    
 
     
 
 
   function hideForm(){
-
+ const formulario = document.getElementById("formulario");
 
     formulario.style.display="none";
 
