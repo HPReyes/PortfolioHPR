@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -368,7 +368,7 @@
                     <h3 class="portfolio__title">Quiéreme Bien | Web Oficial</h3>
                     <p class="portfolio__description">Web oficial de la miniserie documental contra el maltrato animal normalizado.
                     </p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
+                    <a href="https://hpr-projects-2023-quieremebien.netlify.app/" class="button button--flex button--small portfolio__button">
                         Ver
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
@@ -376,12 +376,24 @@
             </div>
             <!-- PORTFOLIO 2 -->
             <div class="porftolio__content grid swiper-slide">
-                <img src="../assets/img/wip.png" alt="workinprogress" class="portfolio__img">
+                <img src="../assets/img/todolist.png" alt="todo-list" class="portfolio__img">
                 <div class="portfolio__data">
-                    <h3 class="portfolio__title">Whack-a-Mole | Juego</h3>
-                    <p class="portfolio__description">Proyecto personal del juego Whack-a-Mole.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
+                    <h3 class="portfolio__title">App de Tareas | App </h3>
+                    <p class="portfolio__description">Proyecto personal de una app de creación de tareas, con mejoras creadas por mí mismo.</p>
+                    <a href="https://hpr-projects-2023-todoapp.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">
                         Ver
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- PORTFOLIO 3 -->
+            <div class="porftolio__content grid swiper-slide">
+                <img src="./assets/img/weatherapp.png" alt="weatherapp" class="portfolio__img">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">WeatherApp | App </h3>
+                    <p class="portfolio__description">Práctica con la API de OpenWeather.</p>
+                    <a href="https://hpr-projects-2023-weatherapp.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                        View
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
