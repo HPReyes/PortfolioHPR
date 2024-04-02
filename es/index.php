@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 
     <title>Hugo Pedraza Reyes || Desarrollador FullStack</title>
     
@@ -140,7 +142,7 @@
                 <img src="../assets/img/sobremi.JPG" alt="aboutme" class="about__img">
                 <div class="about__data">
                     <p class="about__description">Soy un desarrollador web apasionado de la programación y de las nuevas tecnologías. Tengo 10 años de experiencia en Recursos Humanos pero también una fuerte vocación en el desarrollo de soluciones.</p>
-                    <p class="about__description">Desde que era niño me han interesado la tecnología, leer, los animales y los videojuegos. Dato curioso: ¡Aprendí inglés jugando a The Legend of Zelda!/p>
+                    <p class="about__description">Desde que era niño me han interesado la tecnología, leer, los animales y los videojuegos. Dato curioso: ¡Aprendí inglés jugando a The Legend of Zelda!</p>
                     <p class="about__description">¡Contacta conmigo!
                     </p>
                     <!-- <div class="about__info">
@@ -167,6 +169,118 @@
                 </div>
             </div>
         </section>
+
+
+        <section class="portfolio section" id="portfolio">
+    <h2 class="section__title">Portfolio</h2>
+    <span class="section__subtitle">Trabajos recientes</span>
+
+    <div class="portfolio__container container swiper">
+        <div class="swiper-wrapper">
+
+            <!-- PORTFOLIO 1 -->
+            <div class="porftolio__content grid swiper-slide">
+                <img src="../assets/img/quiereme-bien.png" alt="quiereme-bien" class="portfolio__img">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">Quiéreme Bien | Web Oficial</h3>
+                    <p class="portfolio__description">Web oficial de la miniserie documental contra el maltrato animal normalizado.
+                    </p>
+                    <a href="https://quiereme-bien.es/" class="button button--flex button--small portfolio__button" target="_blank">
+                        Ver
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    <a class="button button--flex button--small portfolio__button" id="quieremeBien">Info<i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+            <!-- PORTFOLIO 2 -->
+            <div class="porftolio__content grid swiper-slide">
+                <img src="../assets/img/todolist.png" alt="todo-list" class="portfolio__img">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">App de Tareas | App </h3>
+                    <p class="portfolio__description">Proyecto personal de una app de creación de tareas, con mejoras creadas por mí mismo.</p>
+                    <a href="https://hpr-projects-2023-todoapp.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                        Ver
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    <a class="button button--flex button--small portfolio__button" id="todoApp">Info<i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+            <!-- PORTFOLIO 3 -->
+            <div class="porftolio__content grid swiper-slide">
+                <img src="../assets/img/weatherapp.png" alt="weatherapp" class="portfolio__img">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">WeatherApp | App </h3>
+                    <p class="portfolio__description">Práctica con la API de OpenWeather.</p>
+                    <a href="https://hpr-projects-2023-weatherapp.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                        View
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    <a class="button button--flex button--small portfolio__button" id="weatherApp">Info<i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+            <!-- PORTFOLIO 3 -->
+            <div class="porftolio__content grid swiper-slide">
+                <img src="../assets/img/sogniperte.png" alt="sogniperte" class="portfolio__img">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">Sogni Per Te | Tienda Online</h3>
+                    <p class="portfolio__description">Tienda online para un pequeño negocio local sobre bisutería artesanal.</p>
+                    <a href="https://sogniperte.es/" class="button button--flex button--small portfolio__button" target="_blank">
+                        Ver
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    <a class="button button--flex button--small portfolio__button" id="sogniWeb">Info<i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+
+                   <!-- PORTFOLIO 5 -->
+                   <div class="porftolio__content grid swiper-slide">
+                <img src="../assets/img/devstagram.png" alt="Devstagram" class="portfolio__img">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">Devstagram | Instagram Clone</h3>
+                    <p class="portfolio__description">Laravel project - Clone of Instagram</p>
+                    <a href="https://devstagram.hugopedraza.es/" class="button button--flex button--small portfolio__button" target="_blank">
+                        View
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    <a class="button button--flex button--small portfolio__button" id="devstagramWeb">Info<i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+
+
+
+            <!-- PORTFOLIO 6 -->
+            <div class="porftolio__content grid swiper-slide">
+                <img src="../assets/img/devjobs.png" alt="devjobs" class="portfolio__img">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">DevJobs | InfoJobs Clone</h3>
+                    <p class="portfolio__description">Laravel Project - Clone of InfoJobs.</p>
+                    <a href="https://devjobs.hugopedraza.es/" class="button button--flex button--small portfolio__button" target="_blank">
+                        View
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    <a class="button button--flex button--small portfolio__button" id="devjobsWeb">Info<i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        
+        <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </div>
+</section>
+
+
+
+
+
+
 
         <section class="skills section" id="skills">
             <h2 class="section__title">Skills</h2>
@@ -202,6 +316,24 @@
                                 </div>
                                 <div class="skills__titles">
                                     <h3 class="skills__name">SQL</h3><img src="../assets/img/sql-database-generic-svgrepo-com.svg" alt="SQL" class="skills__icon">
+                                </div>
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Laravel</h3><img src="../assets/img/laravel.svg" alt="Laravel" class="skills__icon">
+                                </div>
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3><img src="../assets/img/react.svg" alt="React" class="skills__icon">
+                                </div>
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Docker</h3><img src="../assets/img/docker.svg" alt="Docker" class="skills__icon">
+                                </div>
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Bootstrap</h3><img src="../assets/img/bootstrap.svg" alt="Bootstrap" class="skills__icon">
+                                </div>
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Tailwind</h3><img src="../assets/img/tailwind.svg" alt="Tailwind" class="skills__icon">
+                                </div>
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">jQuery</h3><img src="../assets/img/jquery.svg" alt="jQuery" class="skills__icon">
                                 </div>
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Linux</h3><img src="../assets/img/linux-svgrepo-com.svg" alt="Linux" class="skills__icon">
@@ -354,76 +486,6 @@
 </section>
 
 
-<section class="portfolio section" id="portfolio">
-    <h2 class="section__title">Portfolio</h2>
-    <span class="section__subtitle">Trabajos recientes</span>
-
-    <div class="portfolio__container container swiper">
-        <div class="swiper-wrapper">
-
-            <!-- PORTFOLIO 1 -->
-            <div class="porftolio__content grid swiper-slide">
-                <img src="../assets/img/quiereme-bien.png" alt="quiereme-bien" class="portfolio__img">
-                <div class="portfolio__data">
-                    <h3 class="portfolio__title">Quiéreme Bien | Web Oficial</h3>
-                    <p class="portfolio__description">Web oficial de la miniserie documental contra el maltrato animal normalizado.
-                    </p>
-                    <a href="https://hpr-projects-2023-quieremebien.netlify.app/" class="button button--flex button--small portfolio__button">
-                        Ver
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-            <!-- PORTFOLIO 2 -->
-            <div class="porftolio__content grid swiper-slide">
-                <img src="../assets/img/todolist.png" alt="todo-list" class="portfolio__img">
-                <div class="portfolio__data">
-                    <h3 class="portfolio__title">App de Tareas | App </h3>
-                    <p class="portfolio__description">Proyecto personal de una app de creación de tareas, con mejoras creadas por mí mismo.</p>
-                    <a href="https://hpr-projects-2023-todoapp.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">
-                        Ver
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-            <!-- PORTFOLIO 3 -->
-            <div class="porftolio__content grid swiper-slide">
-                <img src="./assets/img/weatherapp.png" alt="weatherapp" class="portfolio__img">
-                <div class="portfolio__data">
-                    <h3 class="portfolio__title">WeatherApp | App </h3>
-                    <p class="portfolio__description">Práctica con la API de OpenWeather.</p>
-                    <a href="https://hpr-projects-2023-weatherapp.netlify.app/" target="_blank" class="button button--flex button--small portfolio__button">
-                        View
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-            <!-- PORTFOLIO 3 -->
-            <div class="porftolio__content grid swiper-slide">
-                <img src="../assets/img/wip.png" alt="workinprogress" class="portfolio__img">
-                <div class="portfolio__data">
-                    <h3 class="portfolio__title">Sogni Per Te | Tienda Online</h3>
-                    <p class="portfolio__description">Tienda online para un pequeño negocio local sobre bisutería artesanal.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Ver
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-        </div>
-        
-        <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-        </div>
-        <div class="swiper-pagination"></div>
-
-    </div>
-</section>
 
 
 
@@ -531,6 +593,7 @@
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script src="../assets/js/swiper-bundle.min.js"></script>
     <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/modal.js"></script>
     
 </body>
 </html>

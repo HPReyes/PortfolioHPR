@@ -370,8 +370,10 @@ img{
 }
 
 .home__blob-img{
-    width: 170px;
-
+    width: 14rem;
+    height: 12rem;
+    transform: translate(-15px, -20px);
+    top: 1rem;
 }
 
 
@@ -460,7 +462,7 @@ img{
     align-self: center;
     text-align: center;
     max-width: 200px;
-
+    cursor: pointer !important;
 }
 
 
